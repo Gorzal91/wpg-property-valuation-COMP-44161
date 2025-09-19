@@ -7,7 +7,7 @@ __Opportunity No. 44161__
 This test is used to evaluate your technical ability and proficiency in writing code and modelling business problems. We will review not only your output, but also the process that you used to arrive at your solution. 
 
 > [!NOTE]
-> The problem presented here is representative of the __typical__ problem the position would work on. In the interest of fairness and out of respect for your time, a simplified version of the problem is presented. We recommend you spend no more than 5 hours on this exercise. 
+> The problem presented here is representative of the __typical__ problem the position would work on. In the interest of fairness and out of respect for your time, a **simplified version** of the problem is presented. We recommend you spend no more than 5 hours on this exercise. 
 
 
 > [!CAUTION]
