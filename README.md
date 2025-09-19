@@ -24,7 +24,7 @@ Your task is to:
 
 1. Create an automated valuation model from scratch to predict the assessed value of properties in Winnipeg. 
 
-*How you go about the task* is important and we are paying attention to process. You will see some template code has already been started in the repository. You should use this code and built off it with proper software development workflows - as if you are collaborating with a colleague. Your code should be well structured and tidy. 
+*How you go about the task* is important and we are paying attention to process. You will see some template code has already been started in the repository. You can use this code and built off it. Use proper software development workflows - as if you are collaborating with a colleague. Your code should be well structured and tidy. 
 
 You are free to make assumptions about the business problem and needs - document these assumptions clearly. 
 
