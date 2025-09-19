@@ -34,6 +34,7 @@ You are free to make assumptions about the business problem and needs - document
 
 1. A simple automated valuation model to predict the value of a residential property in Winnipeg, with code and other materials as needed to reproduce results.
 2. Descriptions of your work for two different audiences.
+   
    (a) Accessible description of the work for a non-technical client,  not exceeding **200 words.**
    
    (b) A more detailed description of the work with technical specifics justifying your modelling choices that does not exceed **500 words.**
