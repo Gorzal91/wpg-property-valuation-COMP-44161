@@ -18,7 +18,7 @@ This test is used to evaluate your technical ability and proficiency in writing 
 
 For this exercise, you will use data from the City of Winnipeg's Open Data Portal. You should use the [Assessment dataset](https://data.winnipeg.ca/Assessment-Taxation-Corporate/Assessment-Parcels/d4mq-wa44) but can also use any other dataset on the open data portal. 
 
-Build an automated valuation model to predict the assessed value of a residential property based on the property features (e.g., number of rooms) using R or Python. 
+Build an automated valuation model to predict the assessed value of a residential property based on property features (e.g., number of rooms) using R or Python. 
 
 Your task is to:
 
