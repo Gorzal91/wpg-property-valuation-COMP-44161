@@ -1,0 +1,10 @@
+# Ignore data files
+/data/*
+!/data/.gitignore
+
+# Ignore temporary files
+*.log
+*.tmp
+*.DS_Store
+__pycache__/
+.ipynb_checkpoints/
