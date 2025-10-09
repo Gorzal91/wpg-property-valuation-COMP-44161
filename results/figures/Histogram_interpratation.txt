@@ -1,0 +1,10 @@
+# Comments to histogram chart 'assessed value distribution'
+
+# 1 High Concentration: The vast majority of assessed values are clustered in a narrow range between 10^5 and 10^6.
+
+# 2 Extreme Skewness: The distribution is highly positively skewed,
+    with a sharp mode and a long, sparse tail extending towards $1 billion.
+
+# 3 Log Scale Necessity: The use of a logarithmic x-axis is essential to visualize the entire dataset,
+    effectively separating the main population from the high-value outliers
+
