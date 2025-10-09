@@ -1,18 +1,31 @@
 #example file for EDA
 
 import pandas as pd
-from src.data_loader import load_data
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from src.data_processing import load_data
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 df = load_data("data/assessment_parcels.csv")
 
-# Podstawowa eksploracja
-print(df.describe())
+print(df['total_assessed_value'].head(10))
+print(df['total_assessed_value'].dtype)
 
-# Histogram ceny
-plt.figure(figsize=(6,4))
-sns.histplot(df['price'], bins=50)
-plt.title("Price Distribution")
+
+
+print(df.columns)
+# Basic statistics
+print(df.describe())
+print(df['total_assessed_value'].min())
+print(df['total_assessed_value'].max())
+print(df['total_assessed_value'].mean())
+
+
+# Hist plot of assessed values
+plt.figure(figsize=(10,6))
+sns.histplot(df['total_assessed_value'], bins=25, log_scale= True)
+plt.xlabel("Total Assessed Value")
+plt.title("Assessed Value Distribution")
 plt.savefig("results/figures/price_distribution.png")
 plt.close()
