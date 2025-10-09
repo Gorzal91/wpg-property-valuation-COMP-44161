@@ -1,4 +1,5 @@
-#example file for EDA
+#Example file for EDA
+
 
 import pandas as pd
 import sys, os
@@ -15,11 +16,15 @@ print(df['total_assessed_value'].dtype)
 
 
 print(df.columns)
-# Basic statistics
-print(df.describe())
+# Basic statistics for Total assessed value
+
+statistics_eda = df['total_assessed_value'].describe().to_frame(name = 'Total Assessed Value Stats')
+print(statistics_eda)
 print(df['total_assessed_value'].min())
 print(df['total_assessed_value'].max())
 print(df['total_assessed_value'].mean())
+print(df['total_assessed_value'].median())
+print(df['total_assessed_value'].isnull().sum())
 
 
 # Hist plot of assessed values
@@ -29,3 +34,5 @@ plt.xlabel("Total Assessed Value")
 plt.title("Assessed Value Distribution")
 plt.savefig("results/figures/price_distribution.png")
 plt.close()
+
+statistics_eda.to_csv("results/outputs/eda_statistics.csv")

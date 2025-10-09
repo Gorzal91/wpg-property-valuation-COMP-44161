@@ -8,7 +8,7 @@ library(readr)
 #' @return Dataframe with assessment data and numeric columns
 #' @export
 #' @examples
-#' df <- loadData("data/assessment_parcels.csv")
+# df <- loadData("assessment_parcels.csv")
 loadData <- function(file) {
   # Wczytanie danych
   assessmentData <- read_csv(file, col_types = cols(.default = "c"))
