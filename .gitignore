@@ -2,9 +2,14 @@
 /data/*
 !/data/.gitignore
 
-# Ignore temporary files
+# Ignore temporary and system files
 *.log
 *.tmp
 *.DS_Store
 __pycache__/
 .ipynb_checkpoints/
+
+# Ignore R specific files
+.Rhistory
+.RData
+.Rproj.user/
