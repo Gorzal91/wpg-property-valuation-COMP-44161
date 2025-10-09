@@ -8,15 +8,17 @@ library(readr)
 #' @return Dataframe with assessment data and numeric columns
 #' @export
 #' @examples
-# df <- loadData("assessment_parcels.csv")
+
 loadData <- function(file) {
-  # Wczytanie danych
+
+  # Load data
   assessmentData <- read_csv(file, col_types = cols(.default = "c"))
 
-  # Sprawdź istniejące kolumny
+  # Check existing columns
   existing_cols <- colnames(assessmentData)
   
-  # Tworzenie kolumn numerycznych tylko jeśli nie istnieją
+  # Create numeric columns if they don't exist
+
   if (!"total_living_area_Num" %in% existing_cols) {
     assessmentData$total_living_area_Num <- as.numeric(assessmentData$total_living_area) %>% replace(is.na(.), 0)
   }
@@ -31,3 +33,4 @@ loadData <- function(file) {
 
   return(assessmentData)
 }
+
