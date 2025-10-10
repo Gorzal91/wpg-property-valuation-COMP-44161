@@ -13,3 +13,6 @@ __pycache__/
 .Rhistory
 .RData
 .Rproj.user/
+
+# Ignore all pickle files in outputs
+results/outputs/*.pkl
