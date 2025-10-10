@@ -1,0 +1,2 @@
+Linear Regression -> MAE: 73,062.48, R²: 0.595
+Random Forest -> MAE: 61,279.03, R²: 0.696
