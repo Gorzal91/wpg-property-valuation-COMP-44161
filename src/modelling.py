@@ -116,5 +116,5 @@ print(example_2)
 # -----------------------------
 # Save models
 # -----------------------------
-joblib.dump(rf, output_dir / "rf_model.pkl")
+#joblib.dump(rf, output_dir / "rf_model.pkl")
 joblib.dump(lr, output_dir / "linear_model.pkl")
