@@ -60,6 +60,6 @@ This work provides a robust, transparent, and reproducible framework for automat
 
 For future consideration, integration of additional property and neighborhood-level data could further improve predictive accuracy. Continuous model retraining and validation are recommended to account for evolving market conditions.
 
-### AI Disclosure
+#### AI Disclosure
 
 During the preparation of this submission, AI-assisted tools were used exclusively to draft textual descriptions, summaries, and documentation. All data processing, code development, and model implementation were performed manually without AI assistance.
