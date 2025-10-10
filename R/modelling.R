@@ -64,7 +64,7 @@ ggplot(coef_plot, aes(x = reorder(Variable, Estimate), y = Estimate, color = Sig
 
 ggsave("results/figures/r_model_coefficients.png", width = 8, height = 5)
 
-# 4. Example predictions
+# 4. Example predictions based on the model 
 
 new_property <- data.frame(
   total_living_area_Num=1500, # example living area in sqft

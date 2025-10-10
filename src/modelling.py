@@ -98,12 +98,12 @@ example_2['predicted_value_Num'] = np.round(lr.predict(example_2), 2)
 
 
 # Save example prediction
+
 example_1.to_csv(output_dir / "example_prediction_rf.csv", index=False)
 example_2.to_csv(output_dir / "example_prediction_lr.csv", index=False)
 
-# -----------------------------
 # Print results
-# -----------------------------
+
 print("\nModel evaluation:")
 print("\n".join(results))
 
@@ -113,8 +113,7 @@ print(example_1)
 print("\nExample prediction for Linear Regression:")
 print(example_2)
 
-# -----------------------------
 # Save models
-# -----------------------------
-#joblib.dump(rf, output_dir / "rf_model.pkl")
+
+joblib.dump(rf, output_dir / "rf_model.pkl")
 joblib.dump(lr, output_dir / "linear_model.pkl")

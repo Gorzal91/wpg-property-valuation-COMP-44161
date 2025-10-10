@@ -4,20 +4,10 @@
 
 # Winnipeg Property Valuation Model
 
-This repository contains my solution for the technical challenge (Opportunity No. 44161).  
-The goal is to build an automated valuation model predicting residential property values in Winnipeg using open data.
+This project develops an **Automated Valuation Model (AVM)** to predict the assessed value of residential properties in Winnipeg using open data from the [City of Winnipeg Open Data Portal](https://data.winnipeg.ca/).
 
-## Repository structure
+It was created as part of the **Technical Test Opportunity No. 44161**, following the requirements to:
 
-- `data/` – local data storage (excluded from GitHub)
-- `notebooks/` – Jupyter notebooks for data exploration and model development
-- `src/` – Python scripts for data preprocessing, model training, and evaluation
-- `results/` – figures and model outputs
-
-## Setup
-
-To run the project, create a virtual environment and install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
+- Build a simple but well-structured predictive model.
+- Use reproducible open-source tools (Python and R).
+- Provide clear documentation and accessible communication.
